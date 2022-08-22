@@ -1,0 +1,60 @@
+:root {
+    --white: #e2e1df;
+    --gray: #696c6d;
+    --darkGray: #3c3a48;
+    --black: #24292c;
+    --red: #e64448;
+    --blue: #30aab3;
+    --orange: #eab244;
+    --darkBlue: #0b354b;
+    --lightBlue: #89c5c7;    
+}
+
+main {
+    background-color: var(--lightBlue);
+    font-family: sans-serif;
+}
+
+header img {
+    display: block;
+    margin: auto auto;
+    padding: 114px 114px;
+}
+
+section {
+    padding: 10px 10px;
+}
+
+.local {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.bikes {
+    background-color: var(--blue);
+}
+
+.signup {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.about {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.about p {
+    font-size: 1.25em;
+}
